@@ -1,5 +1,9 @@
 This app is designed to accept two parameters, a word and a sentence. after these two parameters are entered, there is a submit button to submit the form and traverse to the next page of the app. The word's frequency in the sentence is determined using the method wordfreq, and this information is displayed on the following page.
 
+Author: Daniel Minor (github user: DanTheMinor)
+known bugs:
+-The program will only check for exact matches of the word entered, for example: If the word entered is "cat" and the sentence entered is "catz c at and cat" the method will return 1, because theres only 1 exact match of cat.
+
 
 Heroku url:https://secure-mountain-8713.herokuapp.com/
 
