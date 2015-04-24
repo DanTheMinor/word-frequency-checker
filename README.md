@@ -3,6 +3,7 @@ This app is designed to accept two parameters, a word and a sentence. after thes
 Author: Daniel Minor (github user: DanTheMinor)
 known bugs:
 -The program will only check for exact matches of the word entered, for example: If the word entered is "cat" and the sentence entered is "catz c at and cat" the method will return 1, because theres only 1 exact match of cat.
+-If more than one word is entered in the 'word' field, the frequency method is unable to determine the frequency of either of the words, or even the combination of the two words.
 
 
 Heroku url:https://secure-mountain-8713.herokuapp.com/
