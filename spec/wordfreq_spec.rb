@@ -14,4 +14,8 @@ describe('String#wordfreq') do
   it("It will return the frequency of a word in a sentence") do
     expect("test".wordfreq("this is just a test of a test of a test")).to(eq(3))
   end
+
+  it("It will return 0 if a word is not contained in a sentence") do
+    expect("test".wordfreq("this is just a")).to(eq(0))
+  end
 end
