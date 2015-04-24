@@ -1,6 +1,6 @@
-require('rspec')
-require('wordfreq')
-require('pry')
+require('rspec') #for compiling
+require('wordfreq') #the method for checking word frequency
+require('pry') #for troubleshooting
 
 describe('String#wordfreq') do
   it("It will return 1 if one word matches another word") do
