@@ -6,7 +6,7 @@ class String #This method will take a word (self) and a sentence (check)
     sent_words = check.split(" ") #splits the sentence that is being checked into an array of words
     sent_words.each do |word| #loops through every word of the sentence
         if word.==self
-          freq = 1 #sets freq to 1 to pass first spec
+          freq += 1 #adds 1 to the counter every time a word in the sentence is the same as the matching word
         end
     end
     freq
