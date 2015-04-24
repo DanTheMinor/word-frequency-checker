@@ -1,4 +1,4 @@
-#Word Frequency Checker
+# word-frequency-checker
 
 This app is designed to accept two parameters, a word and a sentence. after these two parameters are entered, there is a submit button to submit the form and traverse to the next page of the app. The word's frequency in the sentence is determined using the method wordfreq, and this information is displayed on the following page.
 
